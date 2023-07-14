@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Hairstyle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+</head>
+
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/TanishqLOGO.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">LOOKBOOK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>New Styling</h1>
+            <p>Powerhouse stylers designed for all hair types + all hair styles</p>
+            <a href="" class="hero-btn">Learn more</a>
+        </div>
+    </section>
+    <!-- ------------------------------------course--------------------------------- -->\
+    <section class="course">
+        <h1>We Offer</h1>
+        <p></p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Haircare</h3>
+                <p>Classic
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Hair Colour</h3>
+                <p>Perfect Colour Shade</p>
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Hairstyling</h3>
+                <p>Celebrity Stylist
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- ------------------Campus------------------ -->
+
+    <section class="campus">
+        <h1>Men's Hairstyles</h1>
+        <p>Discover the latest men's hairstyles from short and curly hairstyles for men to long and straight hairstyles for men.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="./images/1.jpg">
+                <div class="layer">
+                    <h3>Sleek Wave</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="./images/2.jpg">
+                <div class="layer">
+                    <h3>Cool Pompadour</h3>
+                </div>
+            </div>
+
+
+            <div class="campus-col">
+                <img src="./images/3.jpg">
+                <div class="layer">
+                    <h3>Au Natural</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------facilities------------------ -->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p></p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/5.jpg">
+                <h3>Skincare & Advanced Beauty Treatments</h3>
+                <p>
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/4.jpg">
+                <h3>Treat and fix damaged hairs</h3>
+                <p>
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/6.jpg">
+                <h3>Tips for Styling Your Dry Hair</h3>
+                <p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -----------------testimonials---------------------- -->
+
+    <section class="testimonial">
+        <h1>HIGHLY SKILLED COLLECTIVE OF STYLISTS</h1>
+        <p>
+        </p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/user1.jpg">
+                <div>
+                    <p>
+
+                    </p>
+                    <h3>Christine Berkley</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/user2.jpg">
+                <div>
+                    <p>
+                    </p>
+                    <h3>David blyyer</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------------Call to Action---------------------------- -->
+
+    <section class="cta">
+        <h1>We'd love to hear from you!</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- -------------------------footer--------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            This site is intended for Indian consumers. Cookies and related technology are used for advertising. To learn more, visit AdChoices and our privacy policy. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+        <p>Made by <i class="fa fa-heart-o"></i>Krishna Pawar</p>
+
+    </section>
+
+    <!-- -------------Javascript for toggle menu---- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
